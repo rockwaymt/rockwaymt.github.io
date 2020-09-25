@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/icon/favicon.ico">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type='text/css'>
+      <link href='/assets/fonts/fonts.css'; rel='stylesheet' type='text/css'>
+    <title>Rockway Wellness Clinic</title>
+      
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap-3.3.1/css/bootstrap.min.css" type='text/css'>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+	<script src="assets/js/modernizr.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="assets/js/html5shiv.min.js"></script>
+          <script src="assets/js/respond.min.js"></script>
+        <![endif]-->
+	<script>
+	// Dynamic sections
+	// ["team"], ["contact"], ["services"], ["plans"], ["portfolio"], ["clients"], ["blog-list"]
+	var sections = [["team"], ["services"], ["COVID"]];
+//	sections = [ ["team"], ["services"], ["portfolio"], ["clients"], ["blog-list"]  ];
+	</script>
+      <style>
+	.telephone::before {
+		font-family: "FontAwesome";
+		font-weight: 900;
+		content: "\f095";
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		margin-right: 5px;
+	}
+      #logo {
+        position: absolute;
+        top: 3em;
+        left: 4em;
+        z-index: 100;
+      }
+      #logo img { height: 125px; }
+      @media (max-width: 768px) {
+          #logo {
+	        position: fixed;
+            top: 1em;
+            left: 0;
+            z-index: 10000;
+          }
+          #logo img { height: 50px; }
+        h1 { font-weight: normal; }
+      }
+	}
+      </style>
+    </head>
+<!--[if IE ]>
+   <body class="ie">
+<![endif]-->
+<!--[if !IE]>-->
+   <body>
+<!--<![endif]-->
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+<!-- Fixed navbar -->
+<div class="navbar main-menu navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+</div>
+    <div class="navbar-collapse collapse" id="TopHead">
+      <ul class="nav navbar-nav navbar-right" id="menu">
+        <li id="mHome"><a class="hvr-underline-from-left" data-scroll data-options="easing: easeOutQuart" href="index.html#slider">Home</a></li>
+        <li id="mabout"><a class="hvr-underline-from-left" data-scroll data-options="easing: easeOutQuart" href="index.html#about">About Us</a></li>
+        <li id="mteam" data-hide="true"><a class="hvr-underline-from-left" data-scroll data-options="easing: easeOutQuart" href="index.html#team">Team</a></li>
+        <li id="mservices" data-hide="true"><a class="hvr-underline-from-left" data-scroll data-options="easing: easeOutQuart" href="index.html#services">Services</a></li>
+        <li id="mplans" data-hide="true"><a class="hvr-underline-from-left" data-scroll data-options="easing: easeOutQuart" href="index.html#plans">Pricing</a></li>
+        <li id="mportfolio" data-hide="true"><a class="hvr-underline-from-left" data-scroll data-options="easing: easeOutQuart" href="index.html#portfolio">Portfolio</a></li>
+   	<li id="mclients" data-hide="true"><a class="hvr-underline-from-left" data-scroll data-options="easing: easeOutQuart" href="index.html#clients">Our Clients</a></li>
+        <li role="presentation" class="dropdown" id="mblog-list" data-hide="true">
+        	<a href="index.html#blog-list" data-scroll data-options="easing: easeOutQuart" data-toggle="dropdown" class="dropdown-toggle hvr-underline-from-left">Blog <b class="caret"></b></a>
+                                <ul role="menu" class="dropdown-menu">
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="single.html">Blog Detail</a></li>
+                                </ul>
+                            </li>
+                            
+  	<li id="mCOVID" data-hide="true"><a class="hvr-underline-from-left" data-scroll data-options="easing: easeOutQuart" href="index.html#COVID">COVID</a></li>
+        <li id="mcontact" data-hide="true"><a class="hvr-underline-from-left" data-scroll data-options="easing: easeOutQuart" href="index.html#contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse --> 
+  </div>
+</div>
+<div id="logo"><a href="" title="logo"><img src="logo/RockwayWellnessClinicRTransparent.png" alt="logo" /></a> </div>
+<section id="slider">
+		<div class="slider-grid">
+
+
+                <div class="col-md-12 col-sm-12 item">
+                      <img src="assets/images/Building_Sign_sm.jpg" alt="gallery" style="max-height:780px">
+                    <div class="text white left">
+                    	<h2 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s"><br/>Welcome to <strong>Rockway Wellness Clinic</strong> <span></span></h2>
+                    </div>
+                </div>
+
+
+                <div class="col-md-12 col-sm-12 item">
+                      <img src="assets/images/LobbyCouchRight_lg_slider.jpg" alt="gallery">
+                    <div class="text">
+                    	<h2 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s"><strong>Rockway Wellness Clinic</strong></h2>
+                    </div>
+                </div>
+
+            </div>
+				
+</section>
+<section id="about">
+	<div class="container">
+        <div class="row">
+            	<h2 class="heading wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">About us</h2>
+                <div class="separator_wrapper wow bounceIn" data-wow-duration="0.7s" data-wow-delay="0.7s">
+                        <div class="separator_first_circle">
+                        <img src="assets/images/green-flower.png" alt="green flower">
+                        </div>
+                    </div>
+                <p class="helping-text wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.8s">Physical and Emotional Wellness Services Under One Roof.<br> Making Self Care as Accessible and Convenient as Possible.</p>
+                
+                <div class="col-md-6 col-sm-12 text-left wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.8s">
+                  <h2>Welcome to our Clinic! Your&nbsp;Healthcare&nbsp;Solution.</h2>
+                <p>We provide personalized care for pain relief, rehabilitation, injury prevention, and stress management. We also provide skincare services to address a variety of needs and concerns. Expect superior results from our dedicated experts in a positive, friendly, welcoming environment.</p>
+      <p><b><i><h4>SERVICES OFFERED:</h4></i></b></p>
+				<ul class="list-unstyled arrow-list">
+				  <li><i class="fa fa-chevron-circle-right"></i> Massage Therapy</li>
+				  <li><i class="fa fa-chevron-circle-right"></i> Chiropractic</li>
+				  <li><i class="fa fa-chevron-circle-right"></i> Acupuncture</li>
+				  <li><i class="fa fa-chevron-circle-right"></i> Skincare</li>
+				  
+				</ul>
+                  <p><h4><b>Direct Billing Available!</b></h4>
+                  Saving you time and hassle, we direct bill to most major insurance providers for massage therapy and chiropractic services.</p>
+                  <p><h4><b>Looking for natural products?</b></h4>
+                  Check out our holistic skincare, pain relievers, and various wellness products available onsite.
+                  </p>
+                  <h4><b>What's New?</b></h4>
+                  <p><b>Tranquility - Kaira's Bath Bombs and More</b> - including bath salts, soaps, lotions, whipped body butter, and more.</p>
+
+      <h1 style="color: red;">Great career opportunity!</h1><h4><b>Room rentals now available for health practitioners looking to work in a friendly, professional environment. Both part-time and full-time use options. Email for further information.</b></h4>
+                  </div>
+				<div class="col-md-6 col-sm-12 wow bounceIn" data-wow-duration="0.9s" data-wow-delay="0.9s">
+                
+					<div class="circle-img green">
+                    	<img src="assets/images/website1_sq.jpg" class="hvr-rotate" alt=" green ">
+                    </div>
+                    <div class="circle-img blue">
+                    	<img src="assets/images/Wall_sm2.jpg" class="hvr-rotate" alt=" blue ">
+                    </div>
+              </div>
+		</div>
+    </div>
+    <div class="stats" id="stats" data-hide="true">
+    </div>
+</section>
+<section id="team" data-hide="true">
+</section>
+<section id="COVID" data-hide="true">
+</section>
+<section id="services" data-hide="true">
+</section>    
+<section id="plans" data-hide="true">
+</section>
+<section id="portfolio" data-hide="true">
+</section>
+<section id="booking" data-hide="true">
+</section>        
+<section id="clients" data-hide="true">
+</section>
+<section id="blog-list" data-hide="true">
+</section>
+<section id="contact" data-hide="true">
+</section>
+<section class="map" title="Click for larger map">
+<p>Get in touch and we’ll get back to you as soon as we can. We look forward to hearing 
+  from you!</p><p><a href="mailto:rockwaymt@gmail.com">rockwaymt@gmail.com</a></p><p><a class="telephone" href="tel:519-749-0123">519-749-0123</a></p> 
+  <p>Located at <a href="https://www.google.ca/maps/place/Rockway+Wellness+Clinic/@43.4410793,-80.4719364,17z/data=!4m5!3m4!1s0x882bf4dcad84f0c5:0xd44c8ddc6ee33ebd!8m2!3d43.4410014!4d-80.4722475">589 Charles Street East, Kitchener</a></p>
+<a href="https://www.google.ca/maps/place/Rockway+Wellness+Clinic/@43.4410793,-80.4719364,17z/data=!4m5!3m4!1s0x882bf4dcad84f0c5:0xd44c8ddc6ee33ebd!8m2!3d43.4410014!4d-80.4722475"> <div id="contact_mapw">&nbsp;
+	</div></a>
+</section>       
+
+   
+<footer>
+	
+   
+    <div class="foot-line">
+    	<p>&copy; 2015 Ygritte PSD Template. Designed by <a href="#"><strong>CreativeMonkie.</strong></a></p>
+    </div>
+</footer>
+<a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <!-- Bootstrap core JavaScript
+        ================================================== --> 
+    <!-- Placed at the end of the document so the pages load faster --> 
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+	<!-- bootstrap -->	
+    <script src="assets/plugins/bootstrap-3.3.1/js/bootstrap.min.js"></script>
+    
+    <!-- smooth scrolling -->
+    <script src="assets/plugins/smooth-scroll/smooth-scroll.js"></script>
+    <!-- isotope -->
+    <script src="assets/plugins/isotope/jquery.isotope.min.js"></script>
+    <!-- wow -->
+    <script src="assets/plugins/wow/wow.min.js"></script>
+    
+    <!-- hcaptions -->
+    <script src="assets/plugins/hcaptions/jquery.hcaptions.js"></script>
+    
+    <!-- prettyPhoto -->
+    <script src="assets/plugins/prettyPhoto/jquery.prettyPhoto.js"></script>
+	
+    <!-- owl-carousel -->
+	<script src="assets/plugins/owl-carousel/owl.carousel.js"></script>
+	
+	<!-- animateNumber -->
+	<script src="assets/plugins/animateNumber/jquery.appear.js"></script>
+	<script src="assets/plugins/animateNumber/jquery.animateNumber.min.js"></script>
+	
+    <!-- Form Validation -->
+    <script src="assets/plugins/jquery-validate/jquery.validate.min.js"></script>
+    
+    <!-- custom -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
