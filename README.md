@@ -63,5 +63,5 @@ This is the website for Rockway Wellness Clinic and Rockway Massage Therapy.
 - Click a file, make changes
 	- Then enter a description in the box in the top right
 	- Click on the save icon to save it
-	- Preview the change by going to http://rockwaymt.github.io after waiting for a couple of minutes
+	- Preview the change by going to https://rockwaymt.github.io/site/ after waiting for a couple of minutes
 - After all of the changes are complete then click the publish icon on your desktop
