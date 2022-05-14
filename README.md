@@ -65,3 +65,6 @@ This is the website for Rockway Wellness Clinic and Rockway Massage Therapy.
 	- Click on the save icon to save it
 	- Preview the change by going to https://rockwaymt.github.io/ after waiting for a couple of minutes
 - After all of the changes are complete then click the publish icon on your desktop
+
+# Maps at the bottom
+- The map displayed at the bottom of the pages are named "contact_map" and "contact_mapw". "contact_map" is for Massage, "contact_mapw" is for Wellness.
