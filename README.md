@@ -1,7 +1,7 @@
 # rockway
 This is the website for Rockway Wellness Clinic and Rockway Massage Therapy.
 
-##Here's a list of files that are important:
+## Here's a list of files that are important:
 - index.html - The master website file that's loaded by the browser.
 		This file contains the core structure of the site and the top header and main menu
 - massage.html - This is the Massage Therapy website page. No other pages are used for this site.
@@ -30,10 +30,10 @@ This is the website for Rockway Wellness Clinic and Rockway Massage Therapy.
 	- /js - The custom Javascript unique to the site
 - /logo - The folder containing the raw Rockway Logo images and the original site theme (non-customized)
 
-##Miscellaneous pages:
+## Miscellaneous pages:
 - single.html - The site if managed as a single page (easy to break), most useful to clone another mini-site for one of the team that doesn't have a website of their own.
 
-#Editing index.html/single.html/massage.html
+# Editing index.html/single.html/massage.html
 - The sections to be loaded are set by the "Dynamic sections" definition near the top of the index.html file.
 	- This is a list of sections to display (including menu items at the top), so to add/remove a menu item and the section that goes with it is as simple as adding or removing from the list of sections on the 'var sections = ' line.
 	- There is a comment above this line showing the spelling of all of the options. So to add a section copy from the example and insert it into the comma separated list (including the square brackets and quotes as shown)
@@ -44,7 +44,7 @@ This is the website for Rockway Wellness Clinic and Rockway Massage Therapy.
 		- Adding a new file into /sections/ folder with the same name/spelling as the section name
 		- The section name must be one word without spaces!
 
-#Editing a Section:
+# Editing a Section:
 - Open the appropriate section file within the /sections folder
 - Add the content required
 - NOTE: Browsers will keep an old copy of this file and in many cases refuse to show the new content.
@@ -52,13 +52,13 @@ This is the website for Rockway Wellness Clinic and Rockway Massage Therapy.
 	the browser will load the latest file.
 - There are a number of fonts available, the easiest solution is to find a section with a font you like and then find and copy the HTML from around it.
 
-#Editing an Image:
+# Editing an Image:
 - Many of the images require specific sizes to work properly:
 	- Slide show images should be at least 1500 pixels wide and 500-600 pixels high or they will look funny
 	- Team member headshots should be as close to square as possible at 200x200 pixels. Too big and they will be chopped off, too small and they look terrible
 	- Services images should be rectangular and taller than they are wide: 500-600 pixels wide and 800-1000 pixels high. Too narrow and the balance of the text/image will look strange. Too tall without enough text will also look strange vertically.
 
-#How to edit a file
+# How to edit a file
 - Use http://prose.io which should be linked to this site after setting it up in your browser and giving it access to this github repository
 - Click a file, make changes
 	- Then enter a description in the box in the top right
