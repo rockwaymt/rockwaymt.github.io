@@ -22,6 +22,7 @@ CURRENT_REVISION=$(git describe)
 #	echo ' ' >> REVISION
 #	$(git diff --name-only HEAD $LATEST_TAG >> REVISION)
 	git diff --name-only HEAD $LATEST_TAG
+
 #	echo ' ' >> REVISION
 
 	## Append to revision history
