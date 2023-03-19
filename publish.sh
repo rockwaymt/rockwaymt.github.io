@@ -9,7 +9,10 @@ echo -e "\033[1;33mEnter your GITHUB password next (if needed)\033[0m"
 git pull
 
 LATEST_TAG=$(git describe --tags --abbrev=0)
+LATEST_TAG=$( ECHO $LATEST_TAG | sed 's/_.*//' )
 NEXT_TAG=$(( $LATEST_TAG + 1 ))
+DT=$( date +%FT%H%M%S )
+NEXT_TAG=${NEXT_TAG}_${DT}
 CURRENT_REVISION=$(git describe)
 echo -e "# \n\033[1;33m Current revision is at $CURRENT_REVISION for Tag: $LATEST_TAG \033[0m"
 
@@ -57,7 +60,7 @@ mv $SFTP $SFTP.$NEXT_TAG
 
 git tag $NEXT_TAG
 echo -e "\033[1;33mEnter your GITHUB password next (if needed)\033[0m"
-git push origin --tags
+git push origin $NEXT_TAG
 
 echo -e "\033[1;34mDone!\033[0m"
 read x
