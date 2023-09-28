@@ -377,8 +377,10 @@ color: #314960;
 .comment-area textarea { height:auto; line-height:20px; width:98%; min-height:180px; }
 
 /************************** Custom to Rockway ******************************/
+.counseling .img-wrap .dropdown-menu,
 .massage .img-wrap .dropdown-menu {top: 28%; left: 10%;}
 .massage .services-wrap .dropdown-menu {top: 88%; left: 10%;}
+.counseling .services-wrap .dropdown-menu {top: 81%; left: 10%;}
 
 /**************************media responsive*********************************/
  @media (min-width: 1200px) {
