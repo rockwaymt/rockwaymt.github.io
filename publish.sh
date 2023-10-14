@@ -9,7 +9,7 @@ echo -e "\033[1;33mEnter your GITHUB password next (if needed)\033[0m"
 git pull
 
 LATEST_TAG=$(git describe --tags --abbrev=0)
-LATEST_TAG=$( ECHO $LATEST_TAG | sed 's/_.*//' )
+LATEST_TAG=$( echo $LATEST_TAG | sed 's/_.*//' )
 NEXT_TAG=$(( $LATEST_TAG + 1 ))
 DT=$( date +%FT%H%M%S )
 NEXT_TAG=${NEXT_TAG}_${DT}
