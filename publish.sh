@@ -9,8 +9,8 @@ echo -e "\033[1;33mEnter your GITHUB password next (if needed)\033[0m"
 git pull
 
 LATEST_TAG=$(git describe --tags --abbrev=0)
-LATEST_TAG=$( echo $LATEST_TAG | sed 's/_.*//' )
-NEXT_TAG=$(( $LATEST_TAG + 1 ))
+LATEST_VERSION=$( echo $LATEST_TAG | sed 's/_.*//' )
+NEXT_TAG=$(( $LATEST_VERSION + 1 ))
 DT=$( date +%FT%H%M%S )
 NEXT_TAG=${NEXT_TAG}_${DT}
 CURRENT_REVISION=$(git describe)
@@ -30,7 +30,8 @@ else
     read x
     exit
 fi
-
+echo "Press ENTER"
+read next
 #echo -e "\033[34mTo create the next tag after publish: \033[0m"
 #echo -e "\033[1;34mgit tag $NEXT_TAG \033[0m"
 
